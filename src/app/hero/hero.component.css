@@ -1,0 +1,19 @@
+.container {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* Menyusun item ke kiri */
+    align-items: flex-start; /* Menyusun item ke atas */
+    gap: 20px; /* Jarak antar elemen */
+  }
+
+.text-content{
+    width: 45%;
+    text-align: left; /* Agar teks di dalam konten rata kiri */
+  }
+
+.thumbnail{
+    width: 100%;
+    align-items: right;
+}
+

@@ -1,0 +1,38 @@
+.card-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px; /* Beri jarak antar card */
+    padding: 10px; /* Tambahkan padding untuk jarak tepi */
+  }
+  
+  .card {
+    flex: 0 0 auto; /* Pastikan card tidak mengecil */
+    width: 18rem;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+  }
+  
+  .card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Batasi teks hanya 3 baris */
+    -webkit-box-orient: vertical;
+  }
+  
+  .btn {
+    margin-top: auto; /* Pastikan tombol selalu berada di bagian bawah card */
+  }
+  

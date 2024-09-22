@@ -1,0 +1,12 @@
+<div class="card-container" >
+  @for (post of data | slice:0:8 ; track post.id ) {
+  <div class="card" >
+      <img src="https://cdn.dribbble.com/users/1019590/screenshots/4105952/media/236cd74ea3b28b9216b508f3f014cdfd.png?resize=800x600&vertical=center" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{post.title}}</h5>
+        <p class="card-text">{{post.body}}</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  }
+  </div>
